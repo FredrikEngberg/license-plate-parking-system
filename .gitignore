@@ -1,0 +1,51 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+config/local.*
+config/secrets.*
+secrets/
+
+# Camera captures / temporary images
+captures/
+temp/
+tmp/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
